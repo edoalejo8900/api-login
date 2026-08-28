@@ -1,0 +1,101 @@
+/* Configuración general de la página */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor principal */
+.contenedor {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+/* Tarjeta de inicio de sesión */
+.login {
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Título */
+.login h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Descripción */
+.descripcion {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* Etiquetas */
+.login label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+/* Campos */
+.login input {
+    width: 100%;
+
+    padding: 12px;
+
+    margin-bottom: 18px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+}
+
+/* Botón */
+.login button {
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #2563eb;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+/* Efecto al pasar el mouse */
+.login button:hover {
+    background: #1d4ed8;
+}
+
+/* Mensaje */
+#mensaje {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
